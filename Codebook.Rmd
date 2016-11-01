@@ -19,4 +19,9 @@ The script run_analysis.Rperforms the 5 steps described in the course project's 
 
 # Variables
 
-* **x_train**, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+* **x_train**, **y_train**, **x_test**, **y_test**, **subject_train** and **subject_test** contain the data from the downloaded files.
+* **features** contain the columns names and **act_lebels** contain the names for each activity
+* **test_full**, **train_full** and **All_data** merges all data except the **act_lebels**
+* **subset_col** keep only de names of the columns we need to get the tidy data set 
+* **All_data_subset** subset the columns in **subset_col**
+* **All_data_subset** merge with **act_lebels** to get the activity names
