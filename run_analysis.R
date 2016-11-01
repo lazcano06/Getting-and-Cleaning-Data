@@ -1,5 +1,5 @@
 ## Creates Files if it doesn't exist
-#Download file from url and unzip it 
+## Download file from url and unzip it 
     if(!file.exists("./GCDdata")){dir.create("./GCDdata")}
     fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
     download.file(fileUrl,destfile="./GCDdata/Dataset.zip")
