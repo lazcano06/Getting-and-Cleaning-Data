@@ -9,10 +9,9 @@ The dataset being used is: [Human Activity Recognition Using Smartphones]   (htt
 
 The code starts by downloading and creating the folder if it doesn't exist, if it does takes for granted all the data is present in the same folder, un-compressed and without names altered.
 
-> **Codebook.Rmd** <
-describes the variables, the data, and any transformations or work that was performed to clean up the data.
+**Codebook.Rmd:** Describes the variables, the data, and any transformations or work that was performed to clean up the data.
 
-**run_analisys** contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
+**run_analisys:** Contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
 
 The output of the 5th step is called **Cleaning_project.txt**, and uploaded in the course project's form.
   
